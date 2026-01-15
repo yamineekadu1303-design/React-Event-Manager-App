@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "title": "Web Development Bootcamp",
+      "type": "Workshop",
+      "date": "2025-02-05",
+      "time": "05:30",
+      "venue": "Lab 301",
+      "department": "Information Technology",
+      "organizer": "Coding Club",
+      "description": "Hands-on workshop covering HTML, CSS, JavaScript, and React basics.",
+      "speaker": "Prof. Amit Verma",
+      "mode": "Online",
+      "registrationLink": "https://college.edu/events/web-bootcamp",
+      "capacity": 82,
+      "status": "Upcoming",
+      "id": "2"
+    },
+    {
+      "id": "44f6",
+      "title": "AI hacakathon",
+      "type": "Seminar",
+      "date": "2025-12-31",
+      "time": "10:30",
+      "venue": "ITV",
+      "department": "AI",
+      "organizer": "ITV HO",
+      "description": "About AI as well machine learning.",
+      "speaker": "Yaminee Kadu",
+      "mode": "Online",
+      "registrationLink": "",
+      "capacity": 15,
+      "status": "Upcoming"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "student@college.edu",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "admin@college.edu",
+      "password": "admin123"
+    },
+    {
+      "id": "d907",
+      "email": "user@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "ba55",
+      "email": "ram@gmail.com",
+      "password": "787878"
+    },
+    {
+      "id": "235b",
+      "email": "yam@gmail.com",
+      "password": "5678989"
+    },
+    {
+      "id": "8fff",
+      "email": "rutu@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

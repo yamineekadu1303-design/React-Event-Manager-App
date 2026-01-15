@@ -1,0 +1,129 @@
+/* Wrapper under navbar: fills main-shell and centers card */
+.auth-page {
+  flex: 1;                           /* fills width of .main-shell */
+  display: flex;
+  align-items: center;
+  justify-content: center;           /* centers horizontally */
+  padding: 2.5rem 1rem 3rem;
+  background: linear-gradient(135deg, #eef2ff 0%, #dbeafe 40%, #bfdbfe 100%);
+  min-height: 100vh;                 /* fills full viewport height */
+}
+
+/* Card */
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 2.5rem 2.25rem;
+  box-shadow: 0 24px 40px rgba(15, 23, 42, 0.25);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+/* Title + subtitle */
+.auth-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1d4ed8;
+  margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1.75rem;
+}
+
+/* Error */
+.auth-error {
+  margin-bottom: 1.25rem;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #b91c1c;
+  border-left: 4px solid #ef4444;
+  font-size: 0.9rem;
+}
+
+/* Form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.auth-field label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.auth-field input {
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.2s ease;
+  background: #f9fafb;
+}
+
+.auth-field input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  background: #ffffff;
+}
+
+/* Button */
+.auth-submit {
+  margin-top: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  box-shadow: 0 18px 30px rgba(37, 99, 235, 0.5);
+  transition: all 0.2s ease;
+}
+
+.auth-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 22px 40px rgba(37, 99, 235, 0.65);
+}
+
+/* Footer text + link */
+.auth-footer-text {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.auth-link {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+/* Small-screen tweak */
+@media (max-width: 640px) {
+  .auth-card {
+    padding: 2rem 1.5rem;
+  }
+}
